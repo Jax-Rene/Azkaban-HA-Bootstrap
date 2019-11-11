@@ -56,5 +56,4 @@ if __name__ == "__main__":
     except Exception as e:
         logging.exception(e)
     finally:
-        logging.exception('azkaban exit abnormal.')
         zk.stop()
